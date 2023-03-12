@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: #1F2937;
+    height: 400px;
+}
+.header-links{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+}
+.left-header-link{
+    color: #F9FAF8;
+    width: 130px;
+    font-size: 24px;
+}
+.right-header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 400px;
+    display: flex;
+    justify-content: space-between
+    ;
+}
+.header-second-element{
+    display: flex;
+    justify-content: space-around;
+}
+.hero{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.left-header-second-element{
+    width: 350px;
+    padding-top: 40px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.extra-info{
+    color: silver;
+}
+button{
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    border: 1px solid #3882F6;
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+}
+.image-container{
+    margin-top: 50px;
+    height: 220px;
+    width: 400px;
+    color: white;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.info-boxes{
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    gap: 30px;
+}
+.box{
+    
+    height: 100px;
+    width: 120px;
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid #3882F6;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+.quote>p{
+    width: 280px;
+    font-size: 16px;
+    color: #1F2937;
+    font-style: italic;
+}
+.quote>strong{
+    margin-left: 110px;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.card{
+    display: flex;
+    background-color: #3882F6;
+    width: 600px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 5px 5px;
+}
+.card-info>p{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.card-info{
+    margin-top: -30px;
+}
+.sign-up{
+    margin-left: 20px;
+    border: 2px solid white;
+}
+.footer{
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
